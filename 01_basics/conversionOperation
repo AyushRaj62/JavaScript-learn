@@ -1,0 +1,31 @@
+let score = "33";
+let score2 = 22;
+let score3 = "12abs";
+let score4 = null;
+
+console.log(typeof score);
+console.log(typeof score2);
+console.log(typeof score3);
+
+let convertingToNum = Number(score3);
+console.log(typeof convertingToNum);
+
+console.log(convertingToNum);// outputs NaN(not a number), jab bhi aisa kuch kre toh check kr lena nan bhi aa skta h -> undefined ka bhi NaN aega
+
+let convertingToNum2 = Number(score4);
+console.log(convertingToNum2);    //0   
+
+
+//  let num2 = Number(true);  // 1 (Boolean to Number)
+
+
+let ab = "";   //->false
+
+let booleanAb = Boolean(ab);
+console.log(booleanAb)
+
+
+let bc = "sfkj";   //->true
+
+let booleanBc = Boolean(bc);
+console.log(booleanBc)
