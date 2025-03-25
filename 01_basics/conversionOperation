@@ -29,3 +29,27 @@ let bc = "sfkj";   //->true
 
 let booleanBc = Boolean(bc);
 console.log(booleanBc)
+
+
+console.log("1" + 2);  //->12
+console.log("1" + 2 + 2);  //-> 122   but yha pe hmko 14 chahiye tha 
+console.log(1 + 2 + "3");
+
+
+const id = Symbol('123')
+const anotherId = Symbol('123')    // used for uniqueness always unique like defining a id
+
+console.log(id === anotherId);
+
+// datatype of funtion is -> funtion
+
+// stack(primitive)    heap(non-primitive)
+
+// let anotherName = "babu";
+// let realName = Ayush
+
+// realName = "ayush";
+
+// console.log(anotherName);
+// console.log(realName);
+
