@@ -53,3 +53,20 @@ console.log(id === anotherId);
 // console.log(anotherName);
 // console.log(realName);
 
+//jason 
+
+// {
+//     "name" : "ayush"
+//     "age" : "20"
+// }
+
+// sab string hota h key aur value dono leking tru false boolean me rhega , null null hi rhega smj rha h n
+
+// jruri nhi jason hmesa obj k format me hi mile kbhi kbhi array k format me bhi milta h 
+
+// [
+
+//     {},
+//     {},
+    
+// ]
