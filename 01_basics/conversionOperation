@@ -70,3 +70,19 @@ console.log(id === anotherId);
 //     {},
     
 // ]
+
+// function calculateCartPrice(...num){
+//     return num
+// }
+
+// console.log(calculateCartPrice(200, 400, 500));
+
+
+function calculateCartPrice(val1, val2, ...num){
+    return num
+}
+
+console.log(calculateCartPrice(200, 400, 500)); // ******************* imp 
+
+
+ 
